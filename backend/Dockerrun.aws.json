@@ -1,0 +1,23 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "naveen-api",
+      "image": "naveen963/naveen-api:latest",
+      "essential": true,
+      "memory": 512,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 8080
+        }
+      ],
+      "environment": [
+        {
+          "name": "SPRING_DATASOURCE_URL",
+          "vale": "jdbc:postgresql://awseb-e-izwzqnxzqt-stack-awsebrdsdatabase-ogkw9txposgd.cyauker3l56m.ap-south-1.rds.amazonaws.com:5432/customer"
+        }
+      ]
+    }
+  ]
+}
