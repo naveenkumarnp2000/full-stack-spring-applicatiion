@@ -34,6 +34,3 @@ build/
 ### VS Code ###
 .vscode/
 src/main/resources/application.yml
-
-#jdbc:postgresql://awseb-e-izwzqnxzqt-stack-awsebrdsdatabase-ogkw9txposgd.cyauker3l56m.ap-south-1.rds.amazonaws.com:5432/customer
-#SPRING_DATASOURCE_URL
